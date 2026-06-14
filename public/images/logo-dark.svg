@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" fill="none" role="img" aria-label="Archtek Design Studio">
+  <title>Archtek Design Studio</title>
+  <circle cx="32" cy="14" r="4" stroke="#F7F5F2" stroke-width="1.5" fill="none"/>
+  <line x1="32" y1="18" x2="18" y2="56" stroke="#F7F5F2" stroke-width="2" stroke-linecap="round"/>
+  <line x1="32" y1="18" x2="46" y2="56" stroke="#F7F5F2" stroke-width="2" stroke-linecap="round"/>
+  <line x1="22" y1="44" x2="42" y2="44" stroke="#C4A574" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="62" y="36" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700" font-size="24" letter-spacing="0.14em" fill="#F7F5F2">ARCHTEK</text>
+  <text x="63" y="52" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="500" font-size="9" letter-spacing="0.3em" fill="#E8DCC8">DESIGN STUDIO</text>
+</svg>

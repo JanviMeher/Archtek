@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" fill="none" role="img" aria-label="Archtek Concept 07 - Circle Badge">
+  <title>Concept 07  Circle Badge</title>
+  <circle class="logo-outer" cx="40" cy="40" r="36" stroke="#2C2C2C" stroke-width="1.5" fill="none"/>
+  <path class="logo-middle" d="M 40 12 A 28 28 0 1 1 40 68" stroke="#7A6239" stroke-width="2" stroke-linecap="round"/>
+  <path class="logo-inner" d="M 40 18 A 22 22 0 1 1 40 62" stroke="#C4A574" stroke-width="1.75" stroke-linecap="round"/>
+  <text class="logo-title" x="90" y="38" font-family="system-ui, sans-serif" font-weight="700" font-size="22" letter-spacing="0.14em" fill="#2C2C2C">ARCHTEK</text>
+  <text class="logo-subtitle" x="91" y="54" font-family="system-ui, sans-serif" font-weight="500" font-size="9" letter-spacing="0.3em" fill="#7A6239">DESIGN STUDIO</text>
+  <text class="logo-subtitle" x="91" y="72" font-family="system-ui, sans-serif" font-weight="400" font-size="8" letter-spacing="0.2em" fill="#7A6239">PUNE · EST. 2015</text>
+</svg>

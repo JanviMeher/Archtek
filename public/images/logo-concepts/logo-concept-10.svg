@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" fill="none" role="img" aria-label="Archtek Concept 10 - Gold Luxe">
+  <title>Concept 10  Gold Luxe</title>
+  <path class="logo-inner" d="M 50.2 12.8 A 30 30 0 1 1 50.2 51.2" stroke="#C4A574" stroke-width="2.5" stroke-linecap="round"/>
+  <path class="logo-inner" d="M 49.1 16.4 A 26 26 0 1 1 49.1 47.6" stroke="#C4A574" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <path class="logo-inner" d="M 48.1 19.8 A 22 22 0 1 1 48.1 44.2" stroke="#7A6239" stroke-width="1.75" stroke-linecap="round"/>
+  <rect class="logo-accent" x="70" y="14" width="3" height="36" fill="#C4A574"/>
+  <text class="logo-title" x="82" y="36" font-family="system-ui, sans-serif" font-weight="700" font-size="26" letter-spacing="0.14em" fill="#2C2C2C">ARCHTEK</text>
+  <text class="logo-accent" x="83" y="52" font-family="system-ui, sans-serif" font-weight="500" font-size="9.5" letter-spacing="0.32em" fill="#C4A574">DESIGN STUDIO</text>
+</svg>

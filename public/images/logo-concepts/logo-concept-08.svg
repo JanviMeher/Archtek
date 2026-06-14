@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" fill="none" role="img" aria-label="Archtek Concept 08 - Square Lockup">
+  <title>Concept 08  Square Lockup</title>
+  <rect class="logo-outer" x="4" y="4" width="72" height="72" stroke="#2C2C2C" stroke-width="1.5" fill="none"/>
+  <path class="logo-middle" d="M 40 16 A 24 24 0 1 1 40 64" stroke="#7A6239" stroke-width="2" stroke-linecap="round"/>
+  <path class="logo-inner" d="M 40 22 A 18 18 0 1 1 40 58" stroke="#C4A574" stroke-width="1.75" stroke-linecap="round"/>
+  <line class="logo-accent" x1="88" y1="76" x2="196" y2="76" stroke="#C4A574" stroke-width="1.25" stroke-linecap="round"/>
+  <text class="logo-title" x="88" y="42" font-family="system-ui, sans-serif" font-weight="700" font-size="22" letter-spacing="0.14em" fill="#2C2C2C">ARCHTEK</text>
+  <text class="logo-subtitle" x="89" y="58" font-family="system-ui, sans-serif" font-weight="500" font-size="9" letter-spacing="0.3em" fill="#7A6239">DESIGN STUDIO</text>
+</svg>

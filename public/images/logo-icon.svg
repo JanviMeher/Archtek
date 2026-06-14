@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Archtek">
+  <title>Archtek</title>
+  <circle cx="32" cy="16" r="5" stroke="#2C2C2C" stroke-width="2.5" fill="none"/>
+  <line x1="32" y1="21" x2="16" y2="56" stroke="#2C2C2C" stroke-width="3" stroke-linecap="round"/>
+  <line x1="32" y1="21" x2="48" y2="56" stroke="#2C2C2C" stroke-width="3" stroke-linecap="round"/>
+  <line x1="20" y1="44" x2="44" y2="44" stroke="#C4A574" stroke-width="2" stroke-linecap="round"/>
+</svg>

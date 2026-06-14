@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" fill="none" role="img" aria-label="Archtek Concept 14 - Facade Elevation">
+  <title>Concept 14  Facade Elevation</title>
+  <rect class="logo-title" x="14" y="14" width="36" height="46" stroke="#2C2C2C" stroke-width="1.5" fill="none"/>
+  <line class="logo-accent" x1="14" y1="28" x2="50" y2="28" stroke="#C4A574" stroke-width="1"/>
+  <line class="logo-accent" x1="14" y1="42" x2="50" y2="42" stroke="#C4A574" stroke-width="1"/>
+  <line class="logo-middle" x1="26" y1="14" x2="26" y2="60" stroke="#7A6239" stroke-width="0.75"/>
+  <line class="logo-middle" x1="38" y1="14" x2="38" y2="60" stroke="#7A6239" stroke-width="0.75"/>
+  <rect class="logo-accent" x="20" y="46" width="8" height="14" fill="#C4A574" opacity="0.6"/>
+  <text class="logo-title" x="64" y="36" font-family="system-ui, sans-serif" font-weight="700" font-size="24" letter-spacing="0.14em" fill="#2C2C2C">ARCHTEK</text>
+  <text class="logo-subtitle" x="65" y="52" font-family="system-ui, sans-serif" font-weight="500" font-size="9" letter-spacing="0.3em" fill="#7A6239">DESIGN STUDIO</text>
+</svg>

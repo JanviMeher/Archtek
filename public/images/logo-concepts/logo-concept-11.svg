@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" fill="none" role="img" aria-label="Archtek Concept 11 - Single Sweep">
+  <title>Concept 11  Single Sweep</title>
+  <path class="logo-outer" d="M 12 52 Q 32 4 52 52" stroke="#2C2C2C" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path class="logo-accent" d="M 16 48 Q 32 12 48 48" stroke="#C4A574" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <text class="logo-title" x="68" y="36" font-family="system-ui, sans-serif" font-weight="700" font-size="24" letter-spacing="0.14em" fill="#2C2C2C">ARCHTEK</text>
+  <text class="logo-subtitle" x="69" y="52" font-family="system-ui, sans-serif" font-weight="500" font-size="9" letter-spacing="0.3em" fill="#7A6239">DESIGN STUDIO</text>
+</svg>

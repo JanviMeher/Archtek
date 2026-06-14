@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" fill="none" role="img" aria-label="Archtek Concept 04 - ADS Monogram">
+  <title>Concept 04  ADS Monogram</title>
+  <rect class="logo-accent" x="2" y="2" width="60" height="60" rx="4" stroke="#C4A574" stroke-width="1.5" fill="none"/>
+  <text class="logo-title" x="32" y="42" font-family="system-ui, sans-serif" font-weight="700" font-size="22" letter-spacing="0.08em" text-anchor="middle" fill="#2C2C2C">ADS</text>
+  <line class="logo-accent" x1="8" y1="50" x2="56" y2="50" stroke="#C4A574" stroke-width="1" stroke-linecap="round"/>
+  <text class="logo-title" x="78" y="36" font-family="system-ui, sans-serif" font-weight="700" font-size="24" letter-spacing="0.14em" fill="#2C2C2C">ARCHTEK</text>
+  <text class="logo-subtitle" x="79" y="52" font-family="system-ui, sans-serif" font-weight="500" font-size="9" letter-spacing="0.3em" fill="#7A6239">DESIGN STUDIO</text>
+</svg>

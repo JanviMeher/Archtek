@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 48" fill="none" role="img" aria-label="Archtek Concept 12 - Ultra Minimal">
+  <title>Concept 12  Ultra Minimal</title>
+  <path class="logo-outer" d="M 20 24 A 12 12 0 1 1 20 36" stroke="#2C2C2C" stroke-width="1" stroke-linecap="round"/>
+  <path class="logo-middle" d="M 20 26 A 10 10 0 1 1 20 34" stroke="#7A6239" stroke-width="0.75" stroke-linecap="round"/>
+  <path class="logo-inner" d="M 20 28 A 8 8 0 1 1 20 32" stroke="#C4A574" stroke-width="0.75" stroke-linecap="round"/>
+  <text class="logo-title" x="44" y="30" font-family="system-ui, sans-serif" font-weight="600" font-size="20" letter-spacing="0.2em" fill="#2C2C2C">ARCHTEK</text>
+  <text class="logo-subtitle" x="45" y="44" font-family="system-ui, sans-serif" font-weight="400" font-size="8" letter-spacing="0.36em" fill="#7A6239">DESIGN STUDIO</text>
+</svg>

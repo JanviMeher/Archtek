@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" fill="none" role="img" aria-label="Archtek Concept 03 - Wordmark Only">
+  <title>Concept 03  Wordmark Only</title>
+  <text class="logo-title" x="0" y="28" font-family="system-ui, sans-serif" font-weight="700" font-size="28" letter-spacing="0.16em" fill="#2C2C2C">ARCHTEK</text>
+  <text class="logo-subtitle" x="1" y="44" font-family="system-ui, sans-serif" font-weight="500" font-size="10" letter-spacing="0.34em" fill="#7A6239">DESIGN STUDIO</text>
+  <line class="logo-accent" x1="0" y1="48" x2="240" y2="48" stroke="#C4A574" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
