@@ -14,7 +14,8 @@ export function Footer() {
               <Logo className="h-10 md:h-11" />
             </Link>
             <p className="mt-4 text-sm text-muted leading-relaxed">
-              Architecture and interior design studio in Pune, founded {siteConfig.founded}.
+              Crafting spaces that inspire — turnkey interiors and design-led homes in Pune,
+              since {siteConfig.founded}.
             </p>
           </div>
 
@@ -24,6 +25,11 @@ export function Footer() {
               <li>
                 <Link href="/projects" className="text-sm text-muted hover:text-accent-dark transition-colors">
                   Projects
+                </Link>
+              </li>
+              <li>
+                <Link href="/editions" className="text-sm text-muted hover:text-accent-dark transition-colors">
+                  Editions
                 </Link>
               </li>
               <li>

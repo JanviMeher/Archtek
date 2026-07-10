@@ -64,8 +64,8 @@ export function Header() {
               {link.label}
             </Link>
           ))}
-          <Button href="/contact" size="sm">
-            Start a project
+          <Button href="/contact#consultation" size="sm">
+            Book consultation
           </Button>
         </nav>
 
@@ -125,8 +125,8 @@ export function Header() {
               {link.label}
             </Link>
           ))}
-          <Button href="/contact" size="lg">
-            Start a project
+          <Button href="/contact#consultation" size="lg">
+            Book consultation
           </Button>
         </nav>
       </div>

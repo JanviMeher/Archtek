@@ -1,18 +1,18 @@
 export const siteConfig = {
   name: "Archtek Design Studio",
   shortName: "Archtek",
-  tagline: "Architecture and interiors shaped around how you live and work.",
+  tagline: "Crafting Spaces That Inspire",
   description:
-    "Pune-based architecture and interior design studio founded in 2015. Residential, commercial, and 3D visualization services across Maharashtra.",
+    "Pune-based architecture and interior design studio. Turnkey home interiors, curated editions, and design-led spaces — from concept to handover.",
   url: "https://www.archtekds.com",
   founded: 2015,
   projectCount: 120,
   address: {
-    line1: "402, Crescent Park, Pan Card Club Road",
-    line2: "Opp. Westport, Baner",
+    line1: "402, Crescent Park",
+    line2: "Pancard Club Road, Baner",
     city: "Pune",
     pincode: "411045",
-    full: "402, Crescent Park, Pan Card Club Road, Opp. Westport, Baner, Pune - 411045",
+    full: "402, Crescent Park, Pancard Club Road, Baner, Pune – 411045",
   },
   phone: "+91 9545488585",
   phoneHref: "tel:+919545488585",
@@ -21,10 +21,12 @@ export const siteConfig = {
   officeHours: "Mon–Sat, 10:00 AM – 6:00 PM",
   social: {
     instagram: "https://www.instagram.com/archtekdesignstudio/",
+    instagramHandle: "@archtekdesignstudio",
     linkedin: "https://linkedin.com/company/archtek-design-studio",
   },
   navLinks: [
     { label: "Projects", href: "/projects" },
+    { label: "Editions", href: "/editions" },
     { label: "Services", href: "/services" },
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
@@ -40,62 +42,37 @@ export const projectCategories: { value: ProjectCategory | "all"; label: string 
   { value: "interiors", label: "Interiors" },
 ];
 
-export const philosophyPillars = [
-  {
-    title: "Context",
-    description:
-      "Every site has climate, culture, and constraints. We design from place — not from templates.",
-  },
-  {
-    title: "Function",
-    description:
-      "Beautiful spaces must work daily. Layout, light, and flow come before ornament.",
-  },
-  {
-    title: "Craft",
-    description:
-      "Materials, details, and supervision ensure what we draw is what you experience.",
-  },
+export const projectStatuses = [
+  "Planning",
+  "Under Construction",
+  "Ready to Move",
+  "Renovation",
 ] as const;
 
-export const processSteps = [
-  {
-    step: "01",
-    title: "Discover",
-    description: "Site visit, brief, budget alignment, and feasibility study.",
-  },
-  {
-    step: "02",
-    title: "Design",
-    description: "Concept, 3D visualization, and detailed drawings for approval.",
-  },
-  {
-    step: "03",
-    title: "Develop",
-    description: "Working drawings, BOQ, vendor coordination, and site supervision.",
-  },
-  {
-    step: "04",
-    title: "Deliver",
-    description: "Handover, snagging, and post-occupancy support where needed.",
-  },
-] as const;
+export const configurations = ["1BHK", "2BHK", "3BHK", "4BHK+", "Villa", "Office", "Other"] as const;
 
-export const projectTypes = [
-  "Residential",
-  "Commercial",
-  "Interior Design",
-  "Mixed-use",
-  "Retail",
-  "Hospitality",
-  "Other",
+export const possessionStatuses = [
+  "Already in possession",
+  "Within 3 months",
+  "3–6 months",
+  "6–12 months",
+  "More than 12 months",
 ] as const;
 
 export const budgetRanges = [
-  "Under ₹25 Lakhs",
-  "₹25–50 Lakhs",
-  "₹50 Lakhs – 1 Crore",
-  "₹1–3 Crore",
-  "Above ₹3 Crore",
+  "Under ₹7 Lakhs",
+  "₹7–12 Lakhs",
+  "₹12–17 Lakhs",
+  "₹17–25 Lakhs",
+  "Above ₹25 Lakhs",
   "Prefer not to say",
+] as const;
+
+export const projectTypes = [
+  "Turnkey Interiors",
+  "Design Only",
+  "Architecture",
+  "Commercial",
+  "Renovation",
+  "Other",
 ] as const;

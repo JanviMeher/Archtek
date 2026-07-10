@@ -1,37 +1,24 @@
 import Image from "next/image";
 import { CTABand } from "@/components/CTABand";
 import { FadeIn } from "@/components/FadeIn";
+import { FirmIcon } from "@/components/icons/FirmIcons";
 import { PartnerCard } from "@/components/PartnerCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { TeamMemberCard } from "@/components/TeamMemberCard";
 import { Button } from "@/components/ui/Button";
+import { whyArchtek, whyChooseUs } from "@/data/firm";
 import { partners, teamMembers } from "@/data/team";
 import { siteConfig } from "@/data/site";
 import { createPageMetadata } from "@/lib/metadata";
 import { getYearsInPractice } from "@/lib/utils";
 
 export const metadata = createPageMetadata({
-  title: "About",
+  title: "About Us",
   description:
-    "Meet Archtek Design Studio — founded in 2015 in Pune by co-founders Abhishek Badale and Anand Munot. Architecture and interior design with context, function, and craft.",
+    "Archtek Design Studio — crafting spaces that inspire. Founded in 2015 in Pune. Architecture-led interiors, turnkey delivery, and design without catalogue thinking.",
   path: "/about",
   image: "/images/home/studio.png",
 });
-
-const philosophyPillars = [
-  {
-    title: "Context first",
-    text: "Climate, culture, and constraints shape every decision — not trends.",
-  },
-  {
-    title: "Engineering integrated",
-    text: "Structure, services, and buildability are part of design, not afterthoughts.",
-  },
-  {
-    title: "Relationships matter",
-    text: "Long-term client trust and contractor partnerships deliver better outcomes.",
-  },
-];
 
 export default function AboutPage() {
   const years = getYearsInPractice(siteConfig.founded);
@@ -43,8 +30,8 @@ export default function AboutPage() {
           <FadeIn>
             <SectionHeading
               eyebrow="About us"
-              title="Design rooted in place and people"
-              description={`Founded in ${siteConfig.founded} in Baner, Pune — Archtek brings together architecture and interior design under one collaborative studio.`}
+              title={siteConfig.tagline}
+              description={`Founded in ${siteConfig.founded} in Baner, Pune — Archtek is a vertically integrated design studio delivering architecture-led interiors and turnkey home solutions.`}
             />
           </FadeIn>
 
@@ -52,18 +39,18 @@ export default function AboutPage() {
             <div className="mt-12 max-w-3xl space-y-4 text-muted leading-relaxed">
               <p>
                 Archtek Design Studio began when architects Abhishek Badale and Anand Munot
-                saw a gap in the market — projects where architecture and interiors were
-                designed in silos, losing coherence by the time they reached site.
+                set out to close the gap between architecture and interiors — where homes
+                were often assembled from templates instead of designed from the ground up.
               </p>
               <p>
-                Today, our team of eight works across residential, commercial, and interior
-                projects in Pune and beyond. We integrate engineering constraints early,
-                maintain close client relationships through every stage, and supervise on
-                site so what we draw is what gets built.
+                Today, we deliver turnkey interiors through curated editions, transparent
+                processes, and in-house production. Every space is planned by purpose,
+                material, finish, and execution priority — balancing structure, light,
+                proportion, and detail.
               </p>
               <p>
-                Sustainability for us is practical: orientation, ventilation, durable
-                materials, and designs that age well — not checkbox certifications.
+                From first consultation to final handover, we create spaces that don&apos;t
+                just look good — they feel designed specifically for you.
               </p>
             </div>
           </FadeIn>
@@ -93,6 +80,55 @@ export default function AboutPage() {
         <div className="container-content">
           <FadeIn>
             <SectionHeading
+              eyebrow="Why choose us"
+              title="Design that starts with you"
+              description="Six principles that define how we approach every project."
+            />
+          </FadeIn>
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {whyChooseUs.map((item, index) => (
+              <FadeIn key={item.id} delay={index * 60}>
+                <div className="h-full rounded-lg border border-border p-6 md:p-8">
+                  <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-full bg-accent-light text-accent-dark">
+                    <FirmIcon name={item.icon} className="h-5 w-5" />
+                  </div>
+                  <h3 className="text-lg">{item.title}</h3>
+                  <p className="mt-2 text-sm text-muted leading-relaxed">{item.description}</p>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding">
+        <div className="container-content">
+          <FadeIn>
+            <SectionHeading
+              eyebrow="Why Archtek?"
+              title="Transparent. Competitive. Quality-driven."
+            />
+          </FadeIn>
+          <div className="mt-12 grid gap-8 md:grid-cols-3">
+            {whyArchtek.map((item, index) => (
+              <FadeIn key={item.title} delay={index * 100}>
+                <div className="text-center">
+                  <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-accent-light text-accent-dark">
+                    <FirmIcon name={item.icon} />
+                  </div>
+                  <h3 className="text-xl">{item.title}</h3>
+                  <p className="mt-3 text-muted leading-relaxed">{item.description}</p>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-y border-border bg-card section-padding">
+        <div className="container-content">
+          <FadeIn>
+            <SectionHeading
               eyebrow="Co-founders"
               title="Two partners, one studio"
               description="Abhishek and Anand founded Archtek together in 2015 — equal partners leading architecture and interiors from day one."
@@ -111,30 +147,6 @@ export default function AboutPage() {
       <section className="section-padding pb-2 md:pb-4">
         <div className="container-content">
           <FadeIn>
-            <div className="max-w-3xl">
-              <p className="label-caps mb-4">Philosophy</p>
-              <p className="text-2xl leading-snug text-balance md:text-3xl">
-                We believe good design listens first — to site, to daily life, and to the
-                people who will inhabit what we build.
-              </p>
-            </div>
-          </FadeIn>
-          <div className="mt-12 grid gap-6 md:grid-cols-3">
-            {philosophyPillars.map((item, index) => (
-              <FadeIn key={item.title} delay={index * 80}>
-                <div className="h-full rounded-lg border border-border p-6 md:p-8">
-                  <h3 className="text-xl">{item.title}</h3>
-                  <p className="mt-3 text-muted leading-relaxed">{item.text}</p>
-                </div>
-              </FadeIn>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section-padding mt-0 pt-0">
-        <div className="container-content">
-          <FadeIn>
             <div className="relative overflow-hidden rounded-lg">
               <div className="relative aspect-[21/9] min-h-[220px]">
                 <Image
@@ -148,7 +160,7 @@ export default function AboutPage() {
                 <div className="absolute inset-0 flex items-end p-8 md:p-12">
                   <p className="max-w-lg text-lg text-white text-shadow-on-image leading-relaxed">
                     A collaborative studio in Baner where architects and interior designers
-                    work side by side — from first sketch to site supervision.
+                    work side by side — from first sketch to final handover.
                   </p>
                 </div>
               </div>
@@ -183,15 +195,20 @@ export default function AboutPage() {
               <Button href="/contact#careers" size="lg">
                 View careers
               </Button>
-              <Button href="/contact" variant="secondary" size="lg">
-                Get in touch
+              <Button href="/contact#consultation" variant="secondary" size="lg">
+                Book a consultation
               </Button>
             </div>
           </FadeIn>
         </div>
       </section>
 
-      <CTABand />
+      <CTABand
+        title="Let's connect"
+        description="If you're looking for a home design experience as unique as you, we'd love to hear from you."
+        primaryLabel="Get in touch"
+        primaryHref="/contact#connect"
+      />
     </>
   );
 }
